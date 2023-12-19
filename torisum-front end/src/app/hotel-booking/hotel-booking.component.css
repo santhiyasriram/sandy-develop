@@ -1,0 +1,46 @@
+
+body {
+ font-family: Arial, sans-serif;
+ background-color: aqua;
+}
+h2{
+    text-align: center;
+}
+
+/* Style the hotel boking form */
+form {
+ margin: 0 auto;
+ width: 400px;
+}
+
+/* Style the input fields */
+input {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+ background-color: #4CAF50;
+ color: white;
+ cursor: pointer;
+}
+
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+
+/* Style the dropdown box */
+select {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+}
+
+/* Style the label of the dropdown box */
+label {
+ margin: 8px 0;
+}
